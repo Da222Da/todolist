@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+}
+
+.todo {
+  margin: 120px auto;
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.todo .todo__header {
+  font-size: 30px;
+  font-weight: 600;
+}

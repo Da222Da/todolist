@@ -1,0 +1,38 @@
+{
+  "name": "todo-docs",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "金石流遇上土山焦 <15826653490@163.com>",
+  "license": "ISC",
+  "main": "lib/todo-docs.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Da222Da/todolist.git"
+  },
+  "scripts": {
+    "dev": "npx vuepress dev docs"
+  },
+  "bugs": {
+    "url": "https://github.com/Da222Da/todolist/issues"
+  },
+  "homepage": "https://github.com/Da222Da/todolist#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "async-validator": "^1.11.5",
+    "core-js": "^2.6.12",
+    "element-ui": "^2.15.12"
+  }
+}
